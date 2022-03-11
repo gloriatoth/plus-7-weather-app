@@ -45,8 +45,12 @@ li {
   font-size: 21px;
 }
 
-.info-weather {
+/* .info-weather {
   text-align: center;
+} */
+
+.temperature {
+  font-size: 52px;
 }
 
 .legal-text {
