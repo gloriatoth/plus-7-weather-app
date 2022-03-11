@@ -44,12 +44,11 @@ li {
 .hour {
   font-size: 21px;
 }
+#description {
+  text-transform: capitalize;
+}
 
-/* .info-weather {
-  text-align: center;
-} */
-
-.temperature {
+.temp {
   font-size: 52px;
 }
 

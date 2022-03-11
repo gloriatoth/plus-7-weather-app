@@ -10,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -18,7 +19,7 @@
       <div class="weather-app">
         <div class="row">
           <div class="col-6">
-            <h1>New York</h1>
+            <h1 id="city"></h1>
           </div>
           <div class="col-6 info-today">
             <ul>
@@ -34,24 +35,21 @@
               alt="Clear"
               width="94"
             />
-            <p>Clear</p>
+            <p id="description"></p>
           </div>
           <div class="col-md-2">
-            <p class="temperature">12</p>
+            <p class="temp" id="temperature"></p>
             <p>°C | <a href="#">°F</a></p>
           </div>
           <div class="col-md-2"></div>
-          <div class="col-md-2">
-            <p>precipitation (%)</p>
-            <p>0</p>
-          </div>
+          <div class="col-md-2"></div>
           <div class="col-md-2">
             <p>humidity (%)</p>
-            <p>73</p>
+            <p id="humidity"></p>
           </div>
           <div class="col-md-2">
             <p>Wind (km/h)</p>
-            <p>2</p>
+            <p id="wind">2</p>
           </div>
         </div>
       </div>
