@@ -1,15 +1,65 @@
 body {
-  background-image: url("img/bg-image.jpg") !important;
+  background-image: url("img/bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: arial, sans-serif;
 }
-.container {
-  padding-top: 60px;
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 100;
+  line-height: 44px;
+  margin-bottom: 70px;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .weather-app {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(217, 235, 233, 0.7);
   max-width: 1200px;
-  margin: auto;
-  padding: 20px 25px;
+  margin: 60px auto;
+  padding: 60px 80px;
   border-radius: 8px;
+}
+
+.info-today {
+  text-align: right;
+}
+
+.day {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.hour {
+  font-size: 21px;
+}
+
+.info-weather {
+  text-align: center;
+}
+
+.legal-text {
+  font-size: 11px;
+  text-align: center;
+  color: gainsboro;
+}
+
+.legal-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.legal-text a:hover {
+  color: gainsboro;
 }
