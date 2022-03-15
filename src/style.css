@@ -4,6 +4,7 @@ body {
   background-size: cover;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
+  height: 100vh;
 }
 
 h1 {
@@ -11,7 +12,8 @@ h1 {
   font-size: 36px;
   font-weight: 300;
   line-height: 44px;
-  margin-bottom: 70px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .weather-app {
@@ -39,8 +41,9 @@ h1 {
 }
 
 .day {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 200;
+  margin-bottom: 0;
 }
 
 .hour {
@@ -75,4 +78,10 @@ h1 {
 
 .legal-text a:hover {
   color: gainsboro;
+}
+
+.weather-app .active {
+  color: #212529;
+  text-decoration: none;
+  cursor: default;
 }
