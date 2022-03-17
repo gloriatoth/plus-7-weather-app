@@ -5,7 +5,7 @@ body {
   color: #333;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  height: 100vh;
+  height: 117vh;
 }
 
 h1 {
@@ -103,6 +103,18 @@ h1 {
 
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+
+.forecast-day {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.icon-forecast {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 40px;
+  filter: drop-shadow(4px 5px 20px #b5d6cd);
 }
 
 .temperature-divider {
