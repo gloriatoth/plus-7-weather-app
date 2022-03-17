@@ -17,7 +17,7 @@ h1 {
 }
 
 .weather-app {
-  background-color: rgba(217, 235, 233, 0.7);
+  background-color: rgba(245, 245, 245, 0.75);
   max-width: 1200px;
   margin: 60px auto;
   padding: 60px 80px;
@@ -54,7 +54,10 @@ h1 {
 }
 
 .icon {
-  margin-top: 22px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  width: 78px;
+  filter: drop-shadow(4px -2px 8px #fff);
 }
 
 .temp,
