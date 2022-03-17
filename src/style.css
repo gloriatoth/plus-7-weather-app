@@ -2,13 +2,13 @@ body {
   background-image: url("img/bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  color: #333;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   height: 100vh;
 }
 
 h1 {
-  color: #333;
   font-size: 36px;
   font-weight: 300;
   line-height: 44px;
@@ -87,4 +87,20 @@ h1 {
   color: #212529;
   text-decoration: none;
   cursor: default;
+}
+
+.weather-forecast {
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.2);
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
