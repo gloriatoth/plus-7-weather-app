@@ -57,7 +57,7 @@ h1 {
   margin-top: 32px;
   margin-bottom: 12px;
   width: 78px;
-  filter: drop-shadow(4px -2px 8px #fff);
+  filter: drop-shadow(4px 5px 20px #b5d6cd);
 }
 
 .temp,
@@ -103,4 +103,8 @@ h1 {
 
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+
+.temperature-divider {
+  color: #d8b5b5;
 }
