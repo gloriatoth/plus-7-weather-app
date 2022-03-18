@@ -94,7 +94,7 @@ h1 {
   text-align: center;
   border-radius: 8px;
   padding: 20px;
-  background-color: rgba(245, 245, 245, 0.2);
+  background-color: rgba(245, 245, 245, 0.3);
 }
 
 .weather-forecast-temperatures {
@@ -115,8 +115,4 @@ h1 {
   margin-bottom: 12px;
   width: 40px;
   filter: drop-shadow(4px 5px 20px #b5d6cd);
-}
-
-.temperature-divider {
-  color: #d8b5b5;
 }
