@@ -5,7 +5,7 @@ body {
   color: #333;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  height: 117vh;
+  height: 100%;
 }
 
 h1 {
@@ -22,6 +22,17 @@ h1 {
   margin: 60px auto;
   padding: 60px 80px;
   border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .weather-app {
+    padding: 60px 25px;
+  }
+}
+
+.form-control::placeholder {
+  color: #333;
+  opacity: 0.5;
 }
 
 .btn-primary {
@@ -57,7 +68,6 @@ h1 {
   margin-top: 32px;
   margin-bottom: 12px;
   width: 78px;
-  filter: drop-shadow(4px 5px 20px #b5d6cd);
 }
 
 .temp,
@@ -102,7 +112,7 @@ h1 {
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .forecast-day {
@@ -114,5 +124,9 @@ h1 {
   margin-top: 12px;
   margin-bottom: 12px;
   width: 40px;
-  filter: drop-shadow(4px 5px 20px #b5d6cd);
+}
+
+.icon,
+.icon-forecast {
+  filter: drop-shadow(-2px 8px 14px rgba(0, 0, 0, 0.4));
 }

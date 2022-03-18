@@ -45,7 +45,9 @@ function displayForecast(response) {
                )}</div>
                 <img src="src/img/icons/${
                   forecastDay.weather[0].icon
-                }.png" alt="" class="icon-forecast" />
+                }.png" alt="${
+        forecastDay.weather[0].description
+      }" class="icon-forecast" />
                 <div class="weather-forecast-temperatures">
                  <span class="weather-forecast-temperature-max">${Math.round(
                    forecastDay.temp.max
@@ -63,7 +65,6 @@ function displayForecast(response) {
 }
 
 function getForcast(coordinates) {
-  console.log(coordinates);
   let apiKey = "5c67d9771dba3f2ffddccbc1dceb6a67";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
 
@@ -107,10 +108,9 @@ function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
-  console.log(cityInputElement.value);
 }
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-search("New York");
+search("Zurich");
